@@ -16,7 +16,7 @@ A tiny desktop web app built with Python, HTML, CSS & JS — to randomly decide 
 
 ## 📦 How to Run
 1. Clone the repo:  
-   `git clone https://github.com/yourusername/yourrepo.git`
+   `git clone https://github.com/wy-11/Who-Cooks-Rice.git`
 2. Install dependencies:  
    `pip install pywebview`
 3. Run the app:  
