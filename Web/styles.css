@@ -1,0 +1,205 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+    background-image: url("Resources/Rice.jpg");
+    background-position: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Setup Section. */
+.setup-section {
+    width: 550px;
+    padding: 20px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+label[for="cookers-count"] {
+    font-size: 20px;
+}
+
+input[type="number"] {
+    padding: 3px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type="number"]:hover {
+    background-color: lightgray;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border: 2px solid #aaa;
+    background-color: aliceblue;
+}
+
+.setup-section button {
+    padding: 3px 13px;
+    font-size: 16px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    background-color:lightcyan;
+    box-sizing: border-box;
+    color: #0a5568;
+    font-family: 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.setup-section button:hover {
+    border: 2px solid skyblue;
+    background-color: lightblue;
+}
+
+/* Name Section. */
+.cooker-names {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 10px auto;
+    text-align: right;
+    color: #3b3b3b;
+}
+
+input[type="text"] {
+    padding: 0px 1px 1px 0px;
+    margin-right: 200px;
+    margin-left: 5px;
+    font-size: 20px;
+    border: 1.5px solid #aaa;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #636363;
+}
+
+input[type="text"]:hover {
+    background-color: lightgray;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 1.5px solid #aaa;
+    background-color: aliceblue;
+}
+
+.name-section button {
+    padding: 3px 6px 5px;
+    font-size: 16px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    background-color:lightcyan;
+    box-sizing: border-box;
+    color: #0a5568;
+    font-family: 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.name-section button:hover {
+    border: 2px solid skyblue;
+    background-color: lightblue;
+}
+
+.input-error {
+    border: 1.5px solid red !important;
+    background-color: #ffe2e2 !important;
+}
+
+/* Reset Section. */
+.reset-section button {
+    padding: 3px 6px 5px;
+    font-size: 16px;
+    border: 2px solid #999699;
+    border-radius: 10px;
+    background-color: #d4d4d4;
+    box-sizing: border-box;
+    color: #656565;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.reset-section button:hover {
+    border: 2px solid gray;
+    background-color: #a9a9a9;
+}
+
+/* Start Section. */
+.start-section button {
+    padding: 3px 6px 5px;
+    font-size: 16px;
+    border: 2px solid #ad7f07;
+    border-radius: 10px;
+    background-color: #f5c518;
+    box-sizing: border-box;
+    color: #6f5805;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.start-section button:hover {
+    border: 2px solid #f9de7a;
+    background-color: #fdeaab;
+}
+
+/* Result Section. */
+.result-section {
+    margin: 40px 0px 30px 0px;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #6f5805;
+}
+
+/* Reset pop-up. */
+.reset-popup {
+    position: fixed;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    top: 35%;
+    left: 30%;
+}
+
+.popup {
+    background-color: #fdb5b7;
+    border: 2.5px solid #f7a099;
+    padding: 10px 20px 25px 20px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 600px;
+    max-height: 100px;
+    font-family: 'Trebuchet MS', sans-serif
+}
+
+.popup-buttons {
+    margin-top: 15px;
+}
+
+.popup-buttons button {
+    margin: 0 10px;
+    padding: 4px 10px;
+    background-color: #fff1f3;
+    border: 1.5px solid #f9acb1;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.popup-buttons button:hover {
+    background-color: darkred;
+    color: white;
+}

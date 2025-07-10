@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>🍚 Who Cooks the Rice Today? 🥢</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <audio id="bg-music" src="Resources/Background Music.mp3" loop></audio>
+        <h1>🍚 Who Cooks the Rice Today? 🥢</h1>
+        <div class="setup-section" id="setup-section" style="display: none;">
+            <label for="cookers-count">NUMBER OF COOKERS:</label>
+            <input id="cookers-count" name="cookers-count" type="number" min="2" max="10" value="2" required>
+            <button type="button" onclick="confirmCount()">✅ OK</button>
+        </div>
+        <div class="name-section" id="name-section"></div>
+        <div class="start-section" id="start-section" style="display: none;">
+            <button type="button" onclick="decideCooker()">🪄 FIND THE PERSON!</button>
+        </div>
+        <div class="result-section" id="result-section" style="display: none;"></div>
+        <div class="reset-section" id="reset-section" style="display: none;">
+            <button type="button" onclick="resetAll()"> 🗑️ RESET</button>
+        </div>
+        <div class="reset-popup" id="reset-popup" style="display: none;">
+            <div class="popup">
+                <p>Are you sure you want to reset all data?<br>Your previous data will be gone... 😢</p>
+                <div class="popup-buttons">
+                    <button type="button" onclick="confirmReset()">👍 YES</button>
+                    <button type="button" onclick="cancelReset()">⛔ CANCEL</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
