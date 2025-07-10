@@ -25,3 +25,6 @@ A tiny desktop web app built with Python, HTML, CSS & JS — to randomly decide 
 ## 🎯 Purpose
 Just for fun — and for learning!  
 This is part of my *just-learning* folder 💻🌱
+
+## 🙏 Credits
+Built with a little help from ChatGPT 🤖💬
